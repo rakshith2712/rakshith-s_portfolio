@@ -15,7 +15,7 @@ This is a my first project while learning data analysis during my Bachelor's Deg
 # [ Project 2: Finance Analysis Model ](https://rakshith2712.github.io/rakshith-s_portfolio/finance__analysis_model)
 This is my second project while learning data analysis during my second internship at Exposys Data Labs
 
-* Data was downloaded from Kaggle (https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%9308)
+* Data was downloaded from Wikipedia (https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%9308)
 * **Data Acquisition with APIs:** Learned to use pandas_datareader to get past stock data for different banks from online sources (Stooq) and automatically collect it for chosen date ranges using datetime.
 * **Multi-Index DataFrames:** Put all banks’ stock data into one MultiIndex Pandas DataFrame to keep it organized and make comparisons easier.
 * **Return Calculations:** Used the pct_change() method to find daily returns, which helped understand stock ups and downs and how prices change over time.
