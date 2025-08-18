@@ -25,3 +25,37 @@ This is my second project while learning data analysis during my second internsh
 * **Time-Series Visualization:** Created rolling averages, line charts, and candlestick charts to see trends, moving averages, and stock behavior over time.
 * **Technical Analysis Tools:** Used Cufflinks for interactive charts, making candlesticks, simple moving averages (SMA), and Bollinger Bands for deeper financial checks.
 * **Crisis Impact Study:** Saw how big financial events (like the 2008 crisis) impacted many banks at the same time, linking stock data to real events in the economy.
+
+# [ Project: Heart Rate Signal Analysis & Prediction](https://rakshith2712.github.io/rakshith-s_portfolio/heart__rate_signal_analysis_and_prediction)
+This is a project for Concordia Unviersity, completed during my Masters degree for a course Pervasive Computing for Healthcare Applications - COEN 691
+
+**Data Collection & Preprocessing**
+* Imported heart rate datasets (Actigraph.csv, April74.csv) and merged signals (HR and HR1).
+* Dropped irrelevant rows, aligned time indices, and resampled data to 1-second intervals with interpolation.
+* Generated sliding window averages (30s) to prepare supervised learning features.
+
+**Signal Processing & Feature Engineering**
+* Visualized heart rate distributions using KDE plots.
+* Applied Fast Fourier Transform (FFT) to analyze frequency components.
+* Implemented a Butterworth bandpass filter (1–4 Hz) to extract physiological HR signals.
+* Used peak detection to identify beats from filtered signals.
+
+**Machine Learning Models**
+
+* Built supervised dataset (X = HR30s, y = HR130s).
+* Implemented and compared multiple regression models:
+* Linear Regression
+* Support Vector Regression (SVR)
+* K-Nearest Neighbors (KNN) with hyperparameter tuning (GridSearchCV)
+* Decision Tree Regression (optimal depth search)
+* Random Forest Regression
+
+**Deep Learning Model**
+* Designed and trained an LSTM neural network for sequential heart rate prediction.
+* Normalized input data and reshaped into time-series format for LSTM.
+* Compared actual vs. predicted values using line plots and scatter plots.
+
+**Model Evaluation**
+* Evaluated all models using MAE, MSE, and RMSE.
+* Visualized model performance using bar plots (log scale for MSE).
+* Categorized predicted HR values into “Good” (60–100 bpm) and “Bad” heart rate ranges.
