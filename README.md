@@ -27,7 +27,7 @@ This is my second project while learning data analysis during my second internsh
 * **Crisis Impact Study:** Saw how big financial events (like the 2008 crisis) impacted many banks at the same time, linking stock data to real events in the economy.
 
 # [ Project: Heart Rate Signal Analysis & Prediction](https://rakshith2712.github.io/rakshith-s_portfolio/heart__rate_signal_analysis_and_prediction)
-This is a project for Concordia Unviersity, completed during my Masters degree for a course Pervasive Computing for Healthcare Applications - COEN 691
+This is a Research project for Concordia Unviersity, completed during my Masters degree for a course Pervasive Computing for Healthcare Applications - COEN 691
 
 **Data Collection & Preprocessing**
 * Imported heart rate datasets (Actigraph.csv, April74.csv) and merged signals (HR and HR1).
